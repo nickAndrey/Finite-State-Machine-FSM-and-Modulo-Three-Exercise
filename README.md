@@ -8,3 +8,8 @@ node index.js
 ```
 
 This will print the results of `FSM` and `Modulo Three` function, directly to the console.
+
+example:
+![Code output](images/fsm-output.png)
+
+To manage the output provide changes in `index.ts`
