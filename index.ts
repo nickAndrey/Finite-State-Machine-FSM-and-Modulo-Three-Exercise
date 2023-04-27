@@ -5,7 +5,7 @@ import moduloThree from './test-Modulo-Three-Function/moduloThree';
 const fsm = new FiniteStateMachine();
 const inputSequence: InputSymbol[] = [1, 0, 0, 1];
 
-inputSequence.forEach((input) => fsm.makeTransition(input));
+inputSequence.forEach((input) => fsm.updateState(input));
 // -------------------------------------------------------
 
 // Example of moduloThree
