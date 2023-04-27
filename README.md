@@ -3,13 +3,12 @@
 To run the code do:
 
 ```shell
-npx tsc index.ts
-node index.js
+npx tsc index.ts && node index.js
 ```
 
 This will print the results of `FSM` and `Modulo Three` function, directly to the console.
 
-example:
+Example of output `npx tsc index.ts && node index.js`:
 ![Code output](images/fsm-output.png)
 
 To manage the output provide changes in `index.ts`

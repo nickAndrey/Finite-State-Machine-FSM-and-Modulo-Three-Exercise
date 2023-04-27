@@ -12,13 +12,15 @@ inputSequence.forEach((input) => fsm.makeTransition(input));
 const moduloThreeValue = moduloThree('1101');
 // -------------------------------------------------------
 
-const tableData: { testName: string; output: string }[] = [
+const tableData: { name: string; input: string; output: string }[] = [
   {
-    testName: 'Modulo three function',
+    name: 'Modulo three function',
+    input: '1101',
     output: `Modulo three function returned value is: ${moduloThreeValue}`,
   },
   {
-    testName: 'FiniteStateMachine',
+    name: 'FiniteStateMachine',
+    input: JSON.stringify(inputSequence),
     output: `The final state of the FiniteStateMachine is ${fsm.currentState}.`,
   },
 ];
